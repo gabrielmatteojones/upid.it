@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+  {% include meta.html %}
+  {% include styles.html %}
+  {%- if jekyll.environment == 'production' -%}
+  {%- include analytics/google-analytics.html -%}
+  {%- endif -%}
+</head>
+<body>
+  {%- include header/header.html -%}
+  {{ page.title }}
+  {{ page.description }}
+  <section class="it-hero-wrapper it-hero-small-size"  aria-label="In evidenza">
+     <div class="img-responsive-wrapper">
+        <div class="img-responsive">
+           <div class="img-wrapper"><img src="{{ page.img }}" title="hero della pagina" alt="hero della pagina"></div>
+        </div>
+     </div>
+  </section>
+  {{ content }}
+<div class="row">
+  <div class="col-12 col-lg-6">
+    <!--start card-->
+    <div class="card-wrapper card-space">
+      <div class="card card-bg">
+        <div class="card-body">
+          <h3 class="card-title h5 ">{{ page.author }}</h3>
+          <a class="read-more" href="{{ page.authorlink }}">
+            <span class="text">Leggi di più</span>
+            <svg class="icon"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-arrow-right"></use></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--end card-->
+  </div>
+</div>
+  {%- include cookiebar.html -%}
+  {%- include scripts.html -%}
+  {%- include footer/footer.html -%}
+</body>
+</html>

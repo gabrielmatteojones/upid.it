@@ -1,6 +1,7 @@
 ---
 layout: pages
 title: esempio
+description: ciao
 lang: it
 ref: about-us
 permalink: /it/esempio

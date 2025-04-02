@@ -10,6 +10,7 @@ img: /assets/images/trasparenza.png
 author: Gabriel Jones
 authorlink: https://gabrieljones.it
 ---
+<div style="margin-top: 20px;"></div>
 Il sito web **"Trasparenza"**, sviluppato da **Gabriel Jones** e il suo team, è una piattaforma dedicata alla pubblicazione di documenti pubblici con l'obiettivo di garantire **la massima trasparenza e accessibilità** delle informazioni. Questo progetto nasce dalla volontà di promuovere una cultura della trasparenza e della partecipazione, rendendo facilmente consultabili documenti ufficiali, progetti e altri materiali di interesse pubblico.  
 
 L'iniziativa rientra in una più ampia missione portata avanti da **Gabriel Jones e dal suo team**, i quali da anni lavorano a progetti orientati all'**open government** e alla **diffusione della conoscenza** attraverso strumenti digitali avanzati. Il sito "Trasparenza" si distingue per la sua interfaccia intuitiva e per l'organizzazione chiara dei contenuti, permettendo agli utenti di accedere rapidamente ai documenti desiderati e di esplorare in modo semplice l'archivio delle informazioni pubblicate.  
